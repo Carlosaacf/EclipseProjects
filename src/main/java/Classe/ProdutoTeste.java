@@ -22,5 +22,7 @@ public class ProdutoTeste {
 		
 		System.out.printf("o Preco do " + p1.nome +" é R$ %.2f", precoFinal1);
 		System.out.printf("\n"+ "o Preco do " + p2.nome +" é R$ %.2f", precofinal2 );
+		
+		System.out.println("Ola mundo");
 	}
 }
