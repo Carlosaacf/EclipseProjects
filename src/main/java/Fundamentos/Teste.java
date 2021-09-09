@@ -1,26 +1,14 @@
 package Fundamentos;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Teste {
 
 	public static void main(String[] args) {
 		
-		
-		Scanner entrada = new Scanner (System.in);
-		
-		System.out.println("Digite seu nome: ");
-		String nome = entrada.nextLine();
-		
-		System.out.println("Digite seu sobrenome: ");
-		String sobrenome = entrada.nextLine();
-		
-		System.out.println("Digite sua idade: ");
-		int idade = entrada.nextInt();
-		
-		System.out.printf("%s %s tem %d anos.%n", nome, sobrenome, idade);
-		
-		System.out.println("Obrigado!");
-		entrada.close();
+		String valor1 = JOptionPane.showInputDialog( " Login ");
+		String valor2 = JOptionPane.showInputDialog(" Senha ");
+	
+		System.out.printf( valor1, valor2);
 	}
 }
